@@ -1,0 +1,97 @@
+/* Nav  এর ভিতরে যা আছে সব একলাইনে আনার জন্য display:flex*/
+/* */
+body{
+    
+        font-family: "Open Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:  "width" 100;}
+
+
+        nav {
+            display:flex ;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px 50px 200px;
+            
+        }
+        
+
+
+.nav-title{
+    color: cadetblue;
+    font-size: 45px;
+    font-weight: 800; 
+}
+.color-orange{
+    color:chocolate;
+}
+
+nav > ul {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+  
+    
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px ;
+    
+    
+}
+nav a{
+    text-decoration: none;
+}
+
+.btn-primari{
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #FD6E0a;
+    padding: 10px 17px;
+    border: 0px;
+    font-weight:700;
+}
+nav li a {
+    color:black
+}
+
+
+/* section body style er jnne*/
+.contact{
+    border-radius: 5px;
+    color: #FD6E0a;
+    background-color:aliceblue
+    padding: 10px 17px;
+    border:1px solid #FD6E0a;
+    font-weight:700;
+    padding: 10px 17px;
+}
+
+
+.hardy{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.profile-text{
+    text-align: center;
+    padding-top: 300px;
+}
+.name{
+    font-weight: 800;
+    font-size:60px;
+}
+
+.devoloper{
+    padding-right: 50px;
+}
+.herdlypng{
+    padding-right: 200px;
+}
+.banner-pg{
+    padding-top: -200px;
+}
